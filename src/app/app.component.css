@@ -1,0 +1,39 @@
+.title {
+    font-size: Verdana;
+    color: brown
+}
+
+.my-container {
+    background-image: url("https://img.freepik.com/fotos-premium/plano-de-fundo-texturizado-em-aquarela-azul-claro_53876-103486.jpg?w=826");
+    background-size: cover;
+    height: 130vh;
+}
+
+.user {
+    text-align: center;
+    font-size: Verdana;
+    color: brown;
+}
+
+.password {
+    text-align: center;
+    font-size: Verdana;
+    color: brown;
+}
+
+.button {
+    text-align: center;
+    font-size: Verdana;
+    color: brown;
+}
+
+.link {
+    text-align: center;
+    font-size: Verdana;
+    font-size: Verdana;
+}
+
+.baseboard {
+    font-size: Verdana;
+    color: brown;
+}

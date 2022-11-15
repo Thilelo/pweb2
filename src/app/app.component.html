@@ -1,16 +1,41 @@
-<h1>Bem Vindo ao Sistema IFCAN!</h1>
-<br>
-<p style="text-align:center;"></p>
-<h5>Informe seu usuário:</h5>
-<div>
-  <input type="text" pInputText [(ngModel)]="property" />
+<div class="my-container">
+  <div class="title">
+    <h1>Bem Vindo ao Sistema IFCAN!</h1>
+  </div>
+  <p style="text-align:right;"><img
+      src="https://img.freepik.com/vetores-gratis/conceito-abstrato-de-sistema-de-controle-de-acesso_335657-3180.jpg?w=740&t=st=1668532746~exp=1668533346~hmac=5faad834e7c63bef5e9a03d73324445d7341809bd823f3cf4c6c233e30259f07"
+      alt="LOGIN" width="200" height="200"></p>
+  <br>
+  <div class="user">
+    <b>
+      <h4>Informe seu usuário:</h4>
+    </b>
+    <input type="text" pInputText [(ngModel)]="property" />
+  </div>
+  <br>
+  <div class="password">
+    <h4>Informe sua senha:</h4>
+    <input type="password" pPassword />
+  </div>
+  <br>
+  <br>
+  <div class="button">
+    <button pButton type="button" label="Entrar"></button>
+    <br>
+    <br>
+    <div class="links">
+      <h4><a href="url"><i>É novo aqui, cadastre-se!</i></a></h4>
+      <h4><a href="url"><i>Esqueci meu usuário ou a senha</i></a></h4>
+    </div>
+    <br>
+    <br>
+  </div>
+  <div class="baseboard">
+    <b>Copyright©2022, T2L Agência de Comunicação LTDA.</b>
+    <br>
+    <br>
+    <b>Todos os direitos reservados, Todos os textos, imagens, gráficos, animações, vídeos, músicas, sons
+      e outros materiais são protegidos por direitos autorais e outros direitos de propriedade intelectual
+      pertencentes à T2L Agência de Comunicação LTDA, suas subsidiárias, afiliadas e licenciantes.</b>
+  </div>
 </div>
-<br>
-<h5>Informe sua senha:</h5>
-<br>
-<div>
-  <input type="password" pPassword />
-</div>
-<br>
-<button pButton type="button" label="Entrar"></button>
-<h5>Ou cadastre-se</h5>
